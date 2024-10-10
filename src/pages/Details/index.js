@@ -395,7 +395,7 @@ const DetailsPage = (props) => {
                     value={1}
                   />
 
-                  {context.windowWidth > 0 && (
+                  {context.windowWidth > 992 && (
                     <Button
                       className={`btn-g btn-lg addtocartbtn`}
                       onClick={addtoCart}
